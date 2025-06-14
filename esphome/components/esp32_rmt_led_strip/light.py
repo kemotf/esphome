@@ -57,6 +57,7 @@ CHIPSETS = {
     "SK6812": LEDStripTimings(300, 900, 600, 600, 0, 0),
     "APA106": LEDStripTimings(350, 1360, 1360, 350, 0, 0),
     "SM16703": LEDStripTimings(300, 900, 900, 300, 0, 0),
+    "PL9823":LEDStripTimings(350, 1360, 1360, 350, 0, 50000),
 }
 
 CONF_USE_PSRAM = "use_psram"
